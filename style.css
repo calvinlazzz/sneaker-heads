@@ -27,3 +27,70 @@ Images:
 - "https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg"
     - (You may use any image you would like for the background!)
 */
+body
+{
+    background-image: url("https://i.pinimg.com/236x/d6/3f/56/d63f563519df0ece564b82c72e9e306c.jpg");
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1
+{
+    font-family: Copperplate;
+    color: rgb(243, 183, 106);
+    font-size: 3rem;
+    margin: 1.5em 0;
+    background-color: #0d6e00;
+    padding: 1em;
+    border-radius: 1em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+}
+.container img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 1.5em 0;
+}
+
+.container p {
+    margin: 1.5em 0;
+    padding: 0.5em;
+    color: yellow
+    
+}
+div {
+    background-color: rgb(241, 117, 0);
+    padding: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+}
+.row2-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0d6e00;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+    margin: 1.5em 0;
+}
+.row1-section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #0d6e00;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    box-shadow: 0 0 1.5em rgba(0, 0, 0, 0.5);
+    margin: 1.5em 0;
+}
